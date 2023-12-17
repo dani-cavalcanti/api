@@ -1,8 +1,4 @@
-package med.voll.api.paciente;
-
-import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Pattern;
+package med.voll.api.domain.paciente;
 
 public record DadosListagemPaciente(Long id, String nome,String email, String cpf) {
 
